@@ -1,0 +1,25 @@
+.pagination{
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.caja-item{
+    width: 27px;
+    background-color: #CCF6FF;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.pagination-item{
+    color: rgb(12, 51, 25);
+    font-size: 20px;
+    transition: all 300ms;
+    text-align: center;
+}
+
+.pagination-item:hover{
+    color: white;
+}

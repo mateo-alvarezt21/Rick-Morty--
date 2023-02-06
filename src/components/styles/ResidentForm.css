@@ -1,0 +1,44 @@
+.residentForm__container{
+    display: flex;
+    justify-content: center;
+}
+
+.residentForm__form{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+}
+
+.residentForm__input{
+    border: 2px solid black;
+    background-color: #4c5d68 ;
+    color: rgb(255, 255, 255);
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.residentForm__btn{
+    background-color: #2F4858;
+    border: none;
+    border-radius: 50%;
+    margin-left: 5px;
+    color: white;
+    width: 50px;
+    transition: all 300ms;
+}
+
+.residentForm__btn:hover{
+    font-size: 25px;
+    animation: giro 1s linear infinite;
+}
+
+@keyframes giro {
+    from {
+    transform: rotate(0deg);
+    }
+    to {
+    transform: rotate(360deg);
+    }
+} 

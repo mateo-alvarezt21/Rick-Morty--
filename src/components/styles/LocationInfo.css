@@ -1,0 +1,35 @@
+.Locationinfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.Locationinfo__name{
+    font-family: var(--texto-titulos);
+    text-align: center;
+    font-size: 100px;
+    color: #062226;
+}
+
+.Locationinfo__list{
+    display: flex;
+    gap: 40px;
+    font-family: var(--texto-titulos);
+}
+
+.Locationinfo__list span{
+    font-size: 38px;
+    color: black;
+    
+}
+
+.Locationinfo__item{
+    font-size: 28px;
+}
+
+@media (max-width: 638px) {
+    .Locationinfo__list{
+        flex-direction: column;
+    }
+}
